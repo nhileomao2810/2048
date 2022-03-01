@@ -1,0 +1,195 @@
+:root
+{
+    --color-bgr : rgb(182, 186, 231);
+    --color-text: black;
+    --color-box: rgb(111, 182, 179);
+    --color-test: rgb(120, 216, 238);
+}
+
+.block
+{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    top: 100px;
+    border-radius: 10px;
+    left: calc(50% - 160px);
+    background-color: var(--color-bgr);
+}
+
+.elm
+{
+    width: 78px;
+    height: 78px;
+    margin: 1px;
+    border-radius: 18px;
+    background-color: var(--color-box);
+}
+
+
+.text
+{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.o1
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.o2
+{
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+.o3
+{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+.o4
+{
+    position: absolute;
+    top: 0px;
+    left: 240px;
+}
+.o5
+{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+
+.o6
+{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.o7
+{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+}
+
+.o8
+{
+    position: absolute;
+    top: 80px;
+    left: 240px;
+}
+.o9
+{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+}
+
+.o10
+{
+    position: absolute;
+    top: 160px;
+    left: 80px;
+}
+
+.o11
+{
+    position: absolute;
+    top: 160px;
+    left: 160px;
+}
+
+.o12
+{
+    position: absolute;
+    top: 160px;
+    left: 240px;
+}
+.o13
+{
+    position: absolute;
+    top: 240px;
+    left: 0px;
+}
+
+.o14
+{
+    position: absolute;
+    top: 240px;
+    left: 80px;
+}
+
+.o15
+{
+    position: absolute;
+    top: 240px;
+    left: 160px;
+}
+
+.o16
+{
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+
+.control
+{
+    position: relative;
+    width: 270px;
+    height: 100px;
+    top: 120px;
+    left: calc(50% - 125px);
+}
+.buttum 
+{
+    position: relative;
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: rgb(132, 230, 230);
+}
+
+.nut
+{
+    position: absolute;
+    font-size: 20px;
+    top: 27px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.top
+{
+    position: absolute;
+    left: 90px;
+}
+.bot
+{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+.left
+{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+.right
+{
+    position: absolute;
+    top: 90px;
+    left: 180px;
+}
